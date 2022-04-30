@@ -14,6 +14,9 @@
   --bg-light-color: ;
   --title-border-color: ;
 
+  --filter-btn-color: #212121;
+  --filner-btn-bg-color: #F5F4FA;
+
   --white-color: #ffffff;
   --black-color: #000000;
 
@@ -113,7 +116,7 @@ background-color: var(--bg-dark-color);
 
 /* Peculiarities */
 
-.Peculiarities-title .title {
+.Peculiarities-list .title {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.2;
@@ -135,3 +138,44 @@ color: #212121;
 
 
 /* Portfolio Page */
+
+.nav-button {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--filter-btn-color);
+background-color: var(--filner-btn-bg-color);
+}
+
+.nav-button:hover, .nav-button:focus {
+    color: var(--white-color);
+    background-color: #2196F3;
+}
+
+.project-portfolio {
+
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+
+letter-spacing: 0.06em;
+
+color: var(--secondary-text-color);
+
+text-decoration: none;
+}
+
+.project-type {
+
+font-size: 16px;
+line-height: 1.88;
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
