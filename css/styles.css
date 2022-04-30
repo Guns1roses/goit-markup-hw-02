@@ -1,0 +1,96 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  --accent-color: #2196F3;
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+
+  --accent-bg-color: ;
+  --main-bg-color: #E5E5E5;
+  --secondary-text-color: #F5F4FA;
+
+  --bg-dark-color: #2F303A;
+  --bg-light-color: ;
+  --title-border-color: ;
+
+
+
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+
+}
+
+body {
+ font-family: var(--main-font)
+
+ font-size: 14px;
+ line-height: 1.71;
+ letter-spacing: 0.03em;
+ color: #757575;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Header */
+
+.logo-link{
+
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+text-decoration: none;
+}
+
+.logo-link span {
+    color: var(--black-color);
+}
+
+
+
+.header-list .header-item:hover,
+.header-list .header-item:focus {
+    color: var(--secondary-text-color);
+}
+
+.header-item,
+.header-link {
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+
+/* Hero */
+
+.hero-title {
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background-color: var(--bg-dark-color);
+}
