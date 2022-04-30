@@ -14,11 +14,8 @@
   --bg-light-color: ;
   --title-border-color: ;
 
-
-
   --white-color: #ffffff;
   --black-color: #000000;
-
 
 }
 
@@ -29,6 +26,16 @@ body {
  line-height: 1.71;
  letter-spacing: 0.03em;
  color: #757575;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.btn {
+ font-family: inherit;
+ color: currentColor;
 }
 
 .visually-hidden {
@@ -63,7 +70,6 @@ text-decoration: none;
 }
 
 
-
 .header-list .header-item:hover,
 .header-list .header-item:focus {
     color: var(--secondary-text-color);
@@ -77,10 +83,19 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
+text-decoration: none;
 color: #2196F3;
 }
 
 /* Hero */
+
+.hero {
+
+left: 0px;
+top: 92px;
+
+background: #2F303A;
+}
 
 .hero-title {
 
@@ -94,3 +109,29 @@ text-transform: uppercase;
 color: #FFFFFF;
 background-color: var(--bg-dark-color);
 }
+
+
+/* Peculiarities */
+
+.Peculiarities-title .title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+/* Employment */
+
+
+/* Team */
+
+
+/* Footer */
+
+
+
+
+/* Portfolio Page */
