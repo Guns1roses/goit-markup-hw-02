@@ -256,41 +256,43 @@ body {
 
 /* Portfolio Page */
 
-.nav-button {
+.portfolio {
+  list-style: none;
+}
+
+.portfolio .button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--filter-btn-color);
-  background-color: var(--filner-btn-bg-color);
+  color: var(--main-text-color);
+  background-color: var(--another-bg-color);
 }
 
-.nav-button:hover,
-.nav-button:focus {
-  color: var(--white-color);
-  background-color: #2196f3;
-}
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--accent-secondary-text-color);
+  background-color: var(--accent-text-color);
 
-.project-portfolio {
+  cursor: pointer;
+}
+.portfolio-list .title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em;
 
-  color: var(--secondary-text-color);
-
-  text-decoration: none;
+  color: var(--main-text-color);
 }
 
-.project-type {
+.portfolio-list .list {
   font-size: 16px;
   line-height: 1.88;
-
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-title {
+  list-style: none;
 }
