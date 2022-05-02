@@ -17,15 +17,20 @@
   --buton-bg-color: #2196f3;
 }
 
+/* General */
+
 body {
   font-family: var(--main-font);
 
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
   background-color: var(--accent-secondary-text-color);
+}
+
+address {
+  font-style: normal;
 }
 
 .button {
@@ -45,6 +50,27 @@ body {
   cursor: pointer;
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* Header */
 /* Logo */
 
@@ -128,6 +154,10 @@ body {
   text-transform: uppercase;
 
   color: var(--accent-secondary-text-color);
+}
+
+.link.active {
+  color: var(--accent-text-color);
 }
 
 /* Peculiarities */
@@ -237,9 +267,9 @@ body {
 }
 
 .address-list .link {
-  line-height: 1.72;
+  line-height: 1.71;
 
-  color: var(--contacts-footer-color);
+  color: var(--accent-secondary-text-color);
 
   text-decoration: none;
 }
@@ -247,6 +277,13 @@ body {
 .address-list .link:hover,
 .address-list .link:focus {
   color: var(--accent-text-color);
+}
+
+.address-list .list {
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--contacts-footer-color);
 }
 
 .address-list .list:hover,
