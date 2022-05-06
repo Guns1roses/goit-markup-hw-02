@@ -56,6 +56,7 @@ address {
 
 .link {
   text-decoration: none;
+  list-style: none;
 }
 
 .visually-hidden {
@@ -274,12 +275,12 @@ address {
   text-decoration: none;
 }
 
-.address-list .link:hover,
-.address-list .link:focus {
+.address-list .link-footer:hover,
+.address-list .link-footer:focus {
   color: var(--accent-text-color);
 }
 
-.address-list .list {
+.address-list .link-footer {
   font-size: 14px;
   line-height: 1.71;
 
